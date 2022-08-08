@@ -1,0 +1,67 @@
+.main__architecture {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%, 1fr));
+    grid-template-rows: repeat(3, 370px);
+}
+
+.image {
+    &-jezael {
+        background: url("../image/jezael melgoza.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1;
+        grid-row: 1;
+        }
+      
+    &-tom {
+        background: url("../image/tom w.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 2/span 2;
+        grid-row: 1;
+        }
+      
+    &-johan {
+        background: url("../image/johan mouchet.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1/span 2;
+        grid-row: 2;
+        }
+      
+    &-federico {
+        background: url("../image/federico di dio.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 3;
+        grid-row: 2;
+        }
+      
+    &-casey {
+        background: url("../image/casey horner.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1;
+        grid-row: 3;
+        }
+      
+    &-alexander {
+        background: url("../image/alexander rotker.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 2/span 2;
+        grid-row: 3;
+        }
+}

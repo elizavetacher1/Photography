@@ -1,0 +1,17 @@
+
+div {
+    border-radius: 20px;
+    opacity: 80%;
+}
+
+.wrapper-svg {
+    display: none
+}
+
+.wrapper-text {
+    display: flex;
+        justify-content: space-between;
+        align-items: end;
+        opacity: 1;
+        grid-row: 2;
+}

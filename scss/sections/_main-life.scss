@@ -1,0 +1,67 @@
+.main__life {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%, 1fr));
+    grid-template-rows: repeat(4, 370px);
+}
+
+.image {
+    &-robert {
+        background: url("../image/robert lukeman.png"), url("/image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1;
+        grid-row: 1;
+        }
+      
+    &-sean {
+        background: url("../image/sean oulashin.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 2/span 2;
+        grid-row: 1;
+        }
+      
+    &-John {
+        background: url("../image/john fowler.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1/span 2;
+        grid-row: 2/span 2;
+        }
+      
+    &-Dave {
+        background: url("../image/dave hoefler.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 3;
+        grid-row: 2/span 2;
+        }
+      
+    &-Leonard {
+        background: url("../image/leonard cotte.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1/span 2;
+        grid-row: 4;
+        }
+      
+    &-Rob {
+        background: url("../image/rob mulally.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 3;
+        grid-row: 4;
+        }
+}

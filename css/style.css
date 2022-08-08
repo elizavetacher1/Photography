@@ -1,0 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Roboto:wght@400;500&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*******Fonts*for*headings********/
+/*******Fonts*for*cards*****/
+/*******Fonts*weight*****/
+/*******spacing*******/
+/*******width*******/
+/*******color*******/
+h1 {
+  color: #000000;
+  font-family: "Delius Unicase", cursive;
+  font-size: 36px;
+  line-height: 45.07px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+div {
+  border-radius: 20px;
+  opacity: 80%;
+}
+
+.wrapper-svg {
+  display: none;
+}
+
+.wrapper-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  opacity: 1;
+  grid-row: 2;
+}
+
+p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  line-height: 23.44px;
+}
+
+.text-name {
+  font-weight: 500;
+}
+
+svg {
+  padding: 10px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  opacity: 50%;
+  cursor: pointer;
+}
+svg:hover {
+  opacity: 1;
+}
+
+main {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 135px;
+  margin-bottom: 120px;
+}
+
+section {
+  gap: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template: 1fr 1fr/1fr;
+  padding: 20px;
+}
+.wrapper:hover .wrapper-svg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__architecture {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
+  grid-template-rows: repeat(3, 370px);
+}
+
+.image-jezael {
+  background: url("../image/jezael melgoza.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1;
+  grid-row: 1;
+}
+.image-tom {
+  background: url("../image/tom w.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 2/span 2;
+  grid-row: 1;
+}
+.image-johan {
+  background: url("../image/johan mouchet.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1/span 2;
+  grid-row: 2;
+}
+.image-federico {
+  background: url("../image/federico di dio.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 3;
+  grid-row: 2;
+}
+.image-casey {
+  background: url("../image/casey horner.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1;
+  grid-row: 3;
+}
+.image-alexander {
+  background: url("../image/alexander rotker.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 2/span 2;
+  grid-row: 3;
+}
+
+.main__life {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
+  grid-template-rows: repeat(4, 370px);
+}
+
+.image-robert {
+  background: url("../image/robert lukeman.png"), url("/image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1;
+  grid-row: 1;
+}
+.image-sean {
+  background: url("../image/sean oulashin.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 2/span 2;
+  grid-row: 1;
+}
+.image-John {
+  background: url("../image/john fowler.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1/span 2;
+  grid-row: 2/span 2;
+}
+.image-Dave {
+  background: url("../image/dave hoefler.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 3;
+  grid-row: 2/span 2;
+}
+.image-Leonard {
+  background: url("../image/leonard cotte.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1/span 2;
+  grid-row: 4;
+}
+.image-Rob {
+  background: url("../image/rob mulally.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.main__portrait-and-fashion {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30%, 370px));
+  grid-template-rows: repeat(5, 370px);
+}
+
+.image-Pooja {
+  background: url("../image/pooja chaudhary.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1;
+  grid-row: 1;
+}
+.image-Dom {
+  background: url("../image/dom hill.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 2;
+  grid-row: 1/span 2;
+}
+.image-Seth {
+  background: url("../image/seth doyle2.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 2;
+  grid-row: 3;
+}
+.image-Devn {
+  background: url("../image/devn.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1;
+  grid-row: 2;
+}
+.image-Noah {
+  background: url("../image/noah buscher.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 3;
+  grid-row: 2/span 2;
+}
+.image-Sincerely {
+  background: url("../image/sincerely media.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1;
+  grid-row: 3/span 2;
+}
+.image-sethdoyle {
+  background: url("../image/seth doyle.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 3;
+  grid-row: 1;
+}
+.image-Melissa {
+  background: url("../image/melissa askew.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 2/span 2;
+  grid-row: 4;
+}
+.image-Brooke {
+  background: url("../image/brooke cagle.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 1/span 2;
+  grid-row: 5;
+}
+.image-Clem {
+  background: url("../image/clem onojeghuo.png"), url("../image/blure.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  grid-column: 3;
+  grid-row: 5;
+}

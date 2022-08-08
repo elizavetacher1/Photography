@@ -1,0 +1,107 @@
+.main__portrait-and-fashion {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%, 370px));
+    grid-template-rows: repeat(5, 370px);
+}
+
+.image {
+    &-Pooja {
+        background: url("../image/pooja chaudhary.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1;
+        grid-row: 1;
+        }
+      
+    &-Dom {
+        background: url("../image/dom hill.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 2;
+        grid-row: 1/span 2;
+        }
+      
+    &-Seth {
+        background: url("../image/seth doyle2.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 2;
+        grid-row: 3;
+        }
+      
+    &-Devn {
+        background: url("../image/devn.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1;
+        grid-row: 2;
+        }
+      
+    &-Noah {
+        background: url("../image/noah buscher.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 3;
+        grid-row: 2 /span 2;
+        }
+      
+    &-Sincerely {
+        background: url("../image/sincerely media.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1;
+        grid-row: 3 / span 2;
+        }
+    
+    &-sethdoyle {
+        background: url("../image/seth doyle.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 3;
+        grid-row: 1;
+        }
+
+    &-Melissa {
+        background: url("../image/melissa askew.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 2 / span 2;
+        grid-row: 4;
+        }
+
+     &-Brooke {
+        background: url("../image/brooke cagle.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 1 / span 2;
+        grid-row: 5;
+        }
+    
+    &-Clem {
+        background: url("../image/clem onojeghuo.png"), url("../image/blure.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        grid-column: 3;
+        grid-row: 5;
+        }
+}

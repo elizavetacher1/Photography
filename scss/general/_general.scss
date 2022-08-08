@@ -1,0 +1,23 @@
+main {
+    max-width: $max-width;
+    min-width: $min-width;
+    margin: $margin-center;
+    text-align: $text-align;
+    padding: $padding;
+    margin-bottom: 120px;
+}
+
+section {
+    gap: $gap;
+}
+
+.wrapper {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    padding: 20px;
+        &:hover .wrapper-svg {
+            display: flex;
+            justify-content: space-between;
+        }
+}
+
